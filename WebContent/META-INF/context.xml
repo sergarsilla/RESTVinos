@@ -1,0 +1,11 @@
+<Context>
+	<Resource name="jdbc/vinos"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="user_vinos"
+		password="vinos_password"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://192.168.1.45:3306/vinos?useSSL=false"
+		maxTotal="-1"
+		maxIdle="3"/>
+</Context>
